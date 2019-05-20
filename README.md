@@ -65,4 +65,14 @@ box-sizing: border-box; //自動把border、padding算進去
 }
 ```
 
+## inline-block
 
+#box {
+background:pink;
+width: 50px;
+height: 50px;
+MARGIN: 10px;
+display:inline-block; // 對外像 inline 可併排，對內像 block 可調各種屬性
+display:block; // 一個佔據一行
+display:inline; // 不能調寬高。不能調上下邊距
+}
