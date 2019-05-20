@@ -28,3 +28,19 @@ height: 100px;
 }
 
 ```
+```css
+#box1 {
+background:pink;
+width: 150px;
+height: 100px;
+border-radius: 30px;
+text-align: center;
+line-height: 100px;
+color:white;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+position: absolute;
+top: 50%;
+left :50%;
+transform: translate(-50%, -50%);
+}
+```
